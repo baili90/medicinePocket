@@ -1,0 +1,132 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
+	},
+	"appid": "wx8defb5b19d50417c",
+	"projectname": "test",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "首页",
+					"pathName": "pages/home/home/home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "技能",
+					"pathName": "pages/skill/skill/skill",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "练习",
+					"pathName": "pages/test/test/test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "关于",
+					"pathName": "pages/about/about/about",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "云开发学习",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "内科呼吸",
+					"pathName": "pages/home/respiratory/respiratory",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "儿科呼吸",
+					"pathName": "pages/home/respiratoryP/respiratoryP",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/no",
+					"pathName": "pages/note/note/note",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "程序日志",
+					"pathName": "pages/about/log/log",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "习题页",
+					"pathName": "pages/test/one1/one1",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人收藏页面",
+					"pathName": "pages/about/favor/favor",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "小程序信息",
+					"pathName": "pages/about/info/info",
+					"scene": null
+				}
+			]
+		}
+	}
+}

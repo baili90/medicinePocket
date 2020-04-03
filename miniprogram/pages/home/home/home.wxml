@@ -1,0 +1,73 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图 -->
+<swiper class="screen-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="8000" duration="500" indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{swiperList}}" wx:key="picture">
+    <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+    <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+  </swiper-item>
+</swiper>
+
+<!-- 学科知识点 -->
+<view class="cu-bar bg-white solid-bottom margin-top ">
+    <view class="action">
+      <text class="cuIcon-title text-blue"></text>内科学
+    </view>
+</view>
+
+<!-- 内科各类 -->
+<view class="cu-list grid col-4 no-border">
+  <view class="cu-item" wx:for="{{medicineImgList}}" wx:key="unique">
+    <navigator hover-class='none' url="/pages/home/{{item.name}}/{{item.name}}" >
+      <image src="{{item.url}}" wx:if="{{item.type=='image'}}"></image>
+      <view class="nav-name">{{item.title}}</view>
+    </navigator>
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-blue"></text>外科学
+    </view>
+    <view class="action"></view>
+</view>
+
+<view class="cu-list grid col-4 no-border">
+  <view class="cu-item" wx:for="{{surgeryImgList}}" wx:key="unique">
+    <navigator hover-class='none' url="/pages/home/{{item.name}}/{{item.name}}" >
+      <image src="{{item.url}}" wx:if="{{item.type=='image'}}"></image>
+      <view class="nav-name">{{item.title}}</view>
+    </navigator>
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-blue"></text>妇产科学
+    </view>
+    <view class="action"></view>
+</view>
+
+<view class="cu-list grid col-4 no-border">
+  <view class="cu-item" wx:for="{{OGImgList}}" wx:key="unique">
+    <navigator hover-class='none' url="/pages/home/{{item.name}}/{{item.name}}" >
+      <image src="{{item.url}}" wx:if="{{item.type=='image'}}"></image>
+      <view class="nav-name">{{item.title}}</view>
+    </navigator>
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-blue"></text>儿科学
+    </view>
+    <view class="action"></view>
+</view>
+
+<view class="cu-list grid col-4 no-border">
+  <view class="cu-item" wx:for="{{pediatricsImgList}}" wx:key="unique">
+    <navigator hover-class='none' url="/pages/home/{{item.name}}/{{item.name}}" >
+      <image src="{{item.url}}" wx:if="{{item.type=='image'}}"></image>
+      <view class="nav-name">{{item.title}}</view>
+    </navigator>
+  </view>
+</view>

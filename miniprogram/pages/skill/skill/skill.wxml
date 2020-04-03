@@ -1,0 +1,47 @@
+<!--pages/skill/skill.wxml-->
+<!--pages/home/home.wxml-->
+<view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title text-blue"></text>病史采集
+    </view>
+</view>
+
+<view class="padding grid col-4 bg-white">
+    <view class="padding" wx:for="{{caseList}}" wx:key="unique">
+      <navigator hover-class='none ' url="/pages/skill/{{item.name}}/{{item.name}}" >     
+        <view class="cu-tag line-brown text-lg">{{item.title}}</view>
+      </navigator>
+    </view>
+</view>
+
+<view class="cu-bar bg-white margin-top solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-blue"></text>体格检查
+    </view>
+    <view class="action"></view>
+</view>
+
+<view class="padding grid col-4 bg-white">
+    <view class="padding" wx:for="{{checkList}}" wx:key="unique">
+      <navigator hover-class='none' url="/pages/skill/{{item.name}}/{{item.name}}" >     
+        <view class="cu-tag line-brown text-lg">{{item.title}}</view>
+      </navigator>
+    </view>
+</view>
+
+
+<view class="cu-bar bg-white margin-top solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-blue"></text>临床操作
+    </view>
+    <view class="action"></view>
+</view>
+
+<view class="padding grid col-3 bg-white">
+    <view class="padding" wx:for="{{operationList}}" wx:key="unique">
+      <navigator hover-class='none' url="/pages/skill/{{item.name}}/{{item.name}}" >     
+        <view class="cu-tag line-brown text-lg">{{item.title}}</view>
+      </navigator>
+    </view>
+</view>
+

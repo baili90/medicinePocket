@@ -1,0 +1,100 @@
+<scroll-view scroll-y class="DrawerPage {{modalName=='viewModal'?'show':''}}">	
+			<view class='padding margin text-center'>
+				<view class='cu-btn line-green lg block shadow radius switchChapter' bindtap="showModal" data-target="viewModal">
+					答案
+				</view>
+			</view>
+
+     <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+           A.肱骨髁上骨折
+B.前臂桡骨骨折
+C.胫骨中下l／3交接处骨折
+D.胫腓骨中段骨折
+E.踝部骨折
+121.易发生伏克曼（Valkmann）肌挛缩的是：（ ）
+122.易发生延迟愈合的是：（ ）     
+        </text>
+        </view>
+			</view>
+  </view>
+
+    <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+          A.部分性葡萄胎
+B.完全性葡萄胎
+C.侵蚀性葡萄胎
+D.绒毛膜癌
+E.胎盘部位滋养细胞肿瘤
+123.绒毛水泡状改变，组织出血、坏死，侵入子宫肌层：（ ）
+124.坏死灶内见滋养细胞、血块及凝固性坏死组织，未见绒毛结构：（ ）
+        </text>
+        </view>
+			</view>
+  </view>
+
+
+    <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+           A.胎盘剥离不全
+B.子宫胎盘卒中
+C.凝血功能障碍
+D.宫缩乏力
+E.软产道损伤
+125.胎盘娩出后阴道多量出血，宫体软，伴轮廓不清 ：（ ）
+126.胎儿娩出后持续阴道流血，鲜红色 ：（ ）
+        </text>
+        </view>
+			</view>
+  </view>
+
+    <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+          A.生理性黄疸
+B.新生儿脑膜炎
+C.新生儿溶血症
+D.新生儿败血症
+E.先天性胆道闭锁
+127.新生儿在生后2～3天开始出现黄疸应首先考虑：（ ）
+128.新生儿生后24小时内出现黄疸应首先考虑是：（ ）
+        </text>
+        </view>
+			</view>
+  </view>
+
+    <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+           A.股骨干中上段骨折
+B.股骨下段骨折
+C.胫骨平台骨折
+D.胫腓骨中段骨折
+E.腓骨颈骨折
+129.可能合并腘动脉损伤的是：（ ）
+130.可能合并腓总神经损伤的是：（ ）
+        </text>
+        </view>
+			</view>
+  </view>
+
+		</scroll-view>
+    
+		<view class="DrawerClose {{modalName=='viewModal'?'show':''}}" bindtap="hideModal">
+			<text class="cuIcon-pullright"></text>
+		</view>
+		<scroll-view scroll-y class="DrawerWindow {{modalName=='viewModal'?'show':''}}">
+			<view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg" wx:for="{{anserList}}" wx:key="one">
+        <text class="cu-item text-green text-lg">
+          {{item.answer}}
+        </text>			
+			</view>
+	</scroll-view>

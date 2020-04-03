@@ -1,0 +1,18 @@
+<!--pages/about/favor/favor.wxml-->
+<view wx:for="{{list}}" wx:key="one">
+   <view class="cu-card case card-menu margin-top-xl margin-bottom-l shadow-lg">
+				<view class="cu-item padding">
+        <text>
+          {{item.question}}
+          {{item.A}}
+          {{item.B}}
+          {{item.C}}
+          {{item.D}}
+          {{item.E}} 
+        </text>       
+        </view>
+        
+   </view>
+</view>
+
+<!-- 展示收藏夹 -->

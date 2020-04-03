@@ -1,0 +1,9 @@
+/* pages/test/test/test.wxss */
+button{
+  width: 100vw;
+  text-align:left;
+}
+
+.context{
+  text-align: left;
+}

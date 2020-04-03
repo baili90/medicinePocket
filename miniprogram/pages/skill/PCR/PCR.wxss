@@ -1,0 +1,7 @@
+/* pages/skill/PCR/PCR.wxss */
+.title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35rpx;
+  font-weight: bold;
+  text-align: center;
+}

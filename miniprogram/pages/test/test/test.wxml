@@ -1,0 +1,67 @@
+<!--pages/test/test/test.wxml-->
+<view class="cu-bar  margin-top">
+  <view class="action" bindtap="showModal" data-target="Modal">
+    <text class="cuIcon-notification text-orange"></text> 【练习必看】题目包括内外妇儿四个学科……
+  </view>
+</view>
+<view class="cu-modal {{modalName=='Modal'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="content bg-white solid-bottom">练习说明</view>
+      <view class="action bg-white" bindtap="hideModal">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <view class="padding-xl bg-white context">
+      题目包括内外妇儿四个学科，按题型划分，不细分章节。欢迎大家补充题目，请联系本人添加。题库来源网络，仅供参考，如有雷同，纯属你复习得好。
+    </view>
+    <view class="cu-bar bg-white">
+      <view class="action margin-1 padding flex-sub solid-top" bindtap="hideModal">我知道了</view>
+    </view>
+  </view>
+</view>
+<view>
+</view>
+<view class="test">
+  <view class="cu-list menu">
+    <view class="cu-item" bindtap="a1Show"  data-hidden="{{hiddenA1}}">
+      <view>单选题</view>
+      <view class="cuIcon-unfold" />
+    </view>
+    
+    <view class="padding grid col-4 bg-white" hidden="{{hiddenA1}}">
+      <view class="padding" wx:for="{{oneChoiceList}}" wx:key="one">
+        <navigator hover-class='none ' url="/pages/test/{{item.name}}/{{item.name}}" >     
+          <view class="cu-tag line-brown text-lg">{{item.title}}</view>
+        </navigator>
+      </view>
+    </view>
+      
+    <view class="cu-item" bindtap="a2Show" data-hidden="{{hiddenA2}}">
+      <view>案例题</view>
+      <view class="cuIcon-unfold" />
+    </view>
+
+     <view class="padding grid col-4 bg-white" hidden="{{hiddenA2}}">
+      <view class="padding" wx:for="{{caseChoiceList}}" wx:key="case">
+        <navigator hover-class='none ' url="/pages/test/{{item.name}}/{{item.name}}" >     
+          <view class="cu-tag line-brown text-lg">{{item.title}}</view>
+        </navigator>
+      </view>
+    </view>
+
+    <view class="cu-item" bindtap="a3Show" data-hidden="{{hiddenA3}}">
+      <view>匹配题</view>
+      <view class="cuIcon-unfold" />
+    </view>
+
+     <view class="padding grid col-4 bg-white" hidden="{{hiddenA3}}">
+      <view class="padding" wx:for="{{matchList}}" wx:key="match">
+        <navigator hover-class='none ' url="/pages/test/{{item.name}}/{{item.name}}" >     
+          <view class="cu-tag line-brown text-lg">{{item.title}}</view>
+        </navigator>
+      </view>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,221 @@
+<scroll-view scroll-y class="DrawerPage {{modalName=='viewModal'?'show':''}}">	
+			<view class='padding margin text-center'>
+				<view class='cu-btn line-green lg block shadow radius switchChapter' bindtap="showModal" data-target="viewModal">
+					答案
+				</view>
+			</view>
+
+    <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+           2岁患儿。高热，体温39～40℃，频繁咳嗽，喘憋5天住院。查体：精神弱，面色苍灰，口周发青，呼吸40次／分，左肺呼吸音低，叩诊浊音，少许细湿啰音。外周血白细胞：8.8×109/L，N44％，异形淋巴细胞1％，L45％。X线胸片示左下肺大片状阴影。      
+           1.最可能的诊断是（ ）
+               A.金黄色葡萄球菌肺炎
+               B.肺炎链球菌肺炎
+               C.呼吸道合胞病毒肺炎
+               D.腺病毒肺炎
+               E.干酪性肺炎
+           2.1天后该患儿呼吸困难加重，X线胸片               示左下胸呈密度均匀影，上界呈弧形，左肋               膈角消失，该患儿可能合并（ ）
+               A.脓胸
+               B.脓气胸
+               C.渗出性胸膜炎
+               D.肺结核胸膜炎
+               E.血胸       
+        </text>
+        </view>
+			</view>
+  </view>
+
+    <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+           男性，42岁，5小时前发生剧烈的上腹部痛且向背部放射，并伴数次恶心呕吐，吐后疼痛无缓解。并呈现休克症状，追问病史，7小时前曾有聚会暴食，饮酒经过
+　　（133~135共用题干）
+3.最可能的诊断是（ ）
+A.急性阑尾炎
+B.急性坏死性胰腺炎
+C.胃癌伴穿孔
+D.急性肾绞痛
+E.急性胆囊炎
+4.此时最有价值的实验检查为（ ）
+A.血白细胞计数
+B.尿淀粉酶测定
+C.血淀粉酶测定
+D.血小板计数
+E.血电解质测定
+5.治疗急性胰腺炎时禁用（ ）
+A.抗胆碱药物
+B.吗啡止痛
+C.5—氟尿嘧啶
+D.钙剂
+E.抗生素
+        </text>
+        </view>
+			</view>
+  </view>
+
+
+    <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+           男，16岁，左上腹被自行车碰伤后2小时，伤后腹痛，呕吐1次，为胃内容物，自觉头晕、乏力、口渴、心慌。查：P110次/min，BP85/60mmHg，面色苍白，四肢湿冷，左上腹见一4cm×4cm皮下淤血斑，全腹压痛，轻度肌紧张和反跳痛，以左上腹为著；叩诊有移动性浊音；听诊肠鸣音较弱
+6.根据患者症状和体征，最可能的诊断是（ ）
+A.肝破裂
+B.脾破裂
+C.空回肠破裂
+D.结肠破裂
+E.胰腺损伤
+7.为明确诊断最简便而最重要的检查方法是（ ）
+A.腹部X线透视
+B.消化道钡剂造影
+C.腹部CT检查
+D.血常规+血细胞比容
+E.左下腹腔穿刺
+8.考虑为腹部实质脏器损伤伴内出血病人，下列检查哪项最重要（ ）
+A.季肋部外伤史
+B.腹部压痛，反跳痛及肌紧张
+C.血压低于70/50mmHg
+D.血红蛋白值逐渐减少
+E.腹腔穿刺抽出不凝固血液
+        </text>
+        </view>
+			</view>
+  </view>
+
+    <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+           26岁，G0P0，白带增多2个月，性交后出血3次就诊，妇科检查：宫颈中度糜烂，子宫颈1o及7o有宫颈腺囊肿，宫体大小正常，双附件未及肿物，无压痛，宫颈刮片巴氏1级。
+9.宫颈糜烂的分度依据是（ ）
+A.糜烂面积
+B.糜烂程度
+C.宫颈刮片
+D.碘试验
+E.活检
+10.此病人最适宜的治疗是（ ）
+A.口服抗生素
+B.宫颈锥形切除术
+C.宫颈糜烂面涂硝酸银
+D.激光治疗
+E.子宫全切术
+        </text>
+        </view>
+			</view>
+  </view>
+
+    <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+           患者女性，28岁，发现心前区收缩期杂音2年。发热两周，呈弛张热型。体检：贫血面容，心率100次/分，可听及偶发期前收缩，心脏杂音呈乐音样变化，伴指端出现豌豆大红色压痛性结节。
+11．该病人的临床诊断是（ ）
+A  败血症
+B  风湿性心脏病
+C  风湿性心脏病伴亚急性感染性心内膜炎
+D  右心衰竭
+E  系统性红斑狼疮
+12．该病人最重要的诊断依据是（ ）
+A  贫血
+B  心动过速
+C  室性期前收缩
+D  红色压痛性结节
+E  新出现乐音样杂音
+        </text>
+        </view>
+			</view>
+  </view>
+
+    <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+           女性，45岁，右乳房胀痛已4年余，月经前显著，行经后胀痛缓解，近期症状加重，月经前后均感胀痛且自感触及肿块。
+13.如果该病人在右乳房扪及肿块，下列哪项辅助检查对诊断最有价值：（ ）
+A.乳房钼靶X线摄片
+B.红外线热图像检查
+C.活组织切片检查
+D.B超检查
+E.乳头溢液涂片检查
+14.确诊为乳癌后采用下列何种治疗方法（ ）
+A.局部切除术
+B.根治切除术
+C.化学药物治疗
+D.放射治疗
+E.激素治疗
+15.左乳房内上象限扪及3cm×3cm肿块，质地偏硬，边界不太清楚，与皮肤胸肌无粘连；左腋下可扪及肿大淋巴结3个，质韧，约蚕豆大小，活动良好，病理证实乳房腺癌淋巴结转移，按TNM分期应为：（ ）
+A.T1N1M0
+B.T1N2M0
+C.T12N1M\sub0
+D.T12N2M\sub0
+E.T13N1M\sub0
+        </text>
+        </view>
+			</view>
+  </view>
+
+    <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+            女性，65岁，咳嗽、咳痰、喘25年，近三年经常出现下肢水肿，近日感冒后咳黄痰，咳痰困难，气短加重。查体：呼吸费力，口唇发绀，桶状胸，双肺散在干湿罗音，心率110次/分，律整，肝脾未触及，双下肢轻度水肿。
+16．最可能的诊断是（ ）
+A  慢性肺心病失代偿期
+B  冠心病、心衰
+C COPD继发感染
+D  支气管哮喘（急性发作期）
+E  金黄色葡萄球菌肺炎
+17．现患者急需进行的检查是（ ）
+A  胸部正位片
+B  心电图
+C  心脏彩超
+D  痰细菌培养加药敏
+E  血气分析
+18．患者目前最重要的治疗是（ ）
+A  利尿剂
+B  强心药物
+C  化痰药物
+D  抗感染治疗
+E  扩血管药物
+        </text>
+        </view>
+			</view>
+  </view>
+
+    <view>
+      <view  class="cu-card case card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item padding">
+        <text>
+           男性，35岁，进食后全腹疼痛4小时，伴呕吐，无黄疸、发热。体查：腹平，全腹腹肌紧张，呈板状腹，压痛、反跳痛明显，肠鸣音弱，腹腔穿刺抽出黄色浑浊无臭液体，可见食物残渣。既往有消化道溃疡病史。
+19.首先考虑的诊断是（ ）
+A  急性化脓性阑尾炎
+B  急性出血性坏死性胰腺炎
+C  急性胃、十二指肠溃疡穿孔
+D  急性肠梗阻
+E  急性胆囊炎
+20.下列处理措施中不正确的是（ ）
+A  胃肠减压
+B  半卧位
+C  手术治疗
+D  静脉输液
+E  饮生理盐水
+        </text>
+        </view>
+			</view>
+  </view>
+			
+		</scroll-view>
+    
+		<view class="DrawerClose {{modalName=='viewModal'?'show':''}}" bindtap="hideModal">
+			<text class="cuIcon-pullright"></text>
+		</view>
+		<scroll-view scroll-y class="DrawerWindow {{modalName=='viewModal'?'show':''}}">
+			<view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg" wx:for="{{anserList}}" wx:key="one">
+        <text class="cu-item text-green text-lg">
+          {{item.answer}}
+        </text>			
+			</view>
+	</scroll-view>
