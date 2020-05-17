@@ -1,4 +1,0 @@
-/* miniprogram/components/questionA/questionA.wxss */
-.answer{
-  text-align: center;
-}

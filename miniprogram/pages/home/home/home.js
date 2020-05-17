@@ -20,7 +20,7 @@ Page({
     }, {
       id: 1,
       type: 'image',
-        name: "cardiovascular",
+      name: "cardiovascular",
       title: "心血管",
       url: '../../../icons/homeIco/xinzang.png',
       }, {

@@ -1,0 +1,12 @@
+<!-- pages/home/abdomen/abdomen.wxml-->
+<!--引入towxml模版入口文件，并使用模版-->
+<scroll-view scroll-y="true" style="height:100%;" enable-back-to-top="true" scroll-top="{{scrollTop}}">
+  <view>
+    <import src="/towxml/entry.wxml"/>
+    <template is="entry" data="{{...article}}"/> 
+  </view>
+<!-- 一键回到顶部 -->
+  <view class='top line-green lg block shadow radius' bindtap="goTop">
+		<view class="cuIcon-top icon">顶部</view>
+	</view>    
+</scroll-view>

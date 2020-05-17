@@ -1,5 +1,17 @@
 <!--pages/about/log/log.wxml-->
 <view class="cu-timeline">
+<view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">正式版2.0</view>
+        <view class="cu-tag line-white">2020/04/17</view>
+      </view>
+      <view class="margin-top-sm text-content">1.界面全新优化，使用Markdown语法排版，文章放置在远程服务器。</view>
+      <view class="margin-top-sm text-content">2.合并同类界面，统一跳转详情页，由详情页发送网络请求。</view>
+      <view class="margin-top-sm text-content">3.增加横屏模式，页面加载提示。</view>
+    </view>
+  </view>
+
  <view class="cu-item text-green">
     <view class="bg-green content shadow">
       <view class="cu-capsule radius">
@@ -13,7 +25,7 @@
  <view class="cu-item text-green">
     <view class="bg-green content shadow">
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-white text-green">测试版1.0</view>
+        <view class="cu-tag bg-white text-green">测试版2.0</view>
         <view class="cu-tag line-white">2020/03/31</view>
       </view>
       <view class="margin-top-sm text-content">内容完成</view>

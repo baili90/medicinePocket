@@ -1,9 +1,0 @@
-<!--miniprogram/components/questionA/questionA.wxml-->
-<!--pages/test/one1/one1.wxml-->
-<view class="cu-card">
-  <view class="cu-item shadow">
-    <slot />
-  </view>
-</view>
-
-

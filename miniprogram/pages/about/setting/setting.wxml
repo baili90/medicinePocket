@@ -1,0 +1,20 @@
+<!--miniprogram/pages/about/setting/setting.wxml-->
+<text>字体大小</text>
+ <view class='row setting-font setting-item'>
+        <view class='col' bindtap='setFont' data-action="minus">
+          -
+        </view>
+        <view class='col'>{{setting.fontIndex + 1}}</view>
+        <view class='col' bindtap='setFont' data-action="plus">
+          +
+        </view>
+        <view style='font-size:{{fontIndexs[setting.fontIndex]}}'>
+          演示字体
+        </view>
+        <view>{{userId}}</view>
+      </view>
+
+<view>
+  <import src="/towxml/entry.wxml"/>
+  <template is="entry" data="{{...article}}"/> 
+</view>

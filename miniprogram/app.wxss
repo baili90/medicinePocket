@@ -1,12 +1,107 @@
 /**app.wxss**/
 @import "colorui/main.wxss";
 @import "colorui/icon.wxss";
+/*  字体大小规范  */
+
+.font-lv1 {
+  font-size: 36rpx !important;
+}
+
+.font-lv2 {
+  font-size: 32rpx !important;
+}
+
+.font-lv3 {
+  font-size: 28rpx !important;
+}
+
+.font-lv4 {
+  font-size: 24rpx !important;
+}
+
+.font-lv5 {
+  font-size: 20rpx !important;
+}
+
+@media (min-width:700px) {
+  .font-lv1 {
+    font-size: 30rpx !important;
+  }
+
+  .font-lv2 {
+    font-size: 26rpx !important;
+  }
+
+  .font-lv3 {
+    font-size: 22rpx !important;
+  }
+
+  .font-lv4 {
+    font-size: 18rpx !important;
+  }
+
+  .font-lv5 {
+    font-size: 14rpx !important;
+  }
+}
+
+/*  margin   */
+
+.mgt-15rpx {
+  margin-top: 15rpx;
+}
+
+.mgb-15rpx {
+  margin-bottom: 15rpx;
+}
+
+.mgt-30rpx {
+  margin-top: 30rpx;
+}
+
+.mgb-30rpx {
+  margin-bottom: 30rpx;
+}
+
+/*  padding  */
+
+.pdt-15rpx {
+  padding-top: 15rpx;
+}
+
+.pdb-15rpx {
+  padding-bottom: 15rpx;
+}
+
+.pdt-30rpx {
+  padding-top: 30rpx;
+}
+
+.pdb-30rpx {
+  padding-bottom: 30rpx;
+}
+
+.pdl-30rpx {
+  padding-left: 30rpx;
+}
+
+.plr-30rpx {
+  padding-right: 30rpx;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
 } 
+/* page text{
+  font-size: 10rpx;
+} */
+
+.subTitle {
+  font-size: 20rpx;
+}
 
 button {
   background: initial;
@@ -155,4 +250,8 @@ page {
   font-size: 24rpx;
   line-height: 36rpx;
   word-break: break-all;
+}
+
+text{
+  font-size: 25rpx;
 }

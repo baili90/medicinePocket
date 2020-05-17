@@ -1,5 +1,37 @@
 //app.js
+// miniprogram/pages/about/setting/setting.js
+// const config = require('../../config.js')
+  /**
+   * 页面的初始数据
+   */
+const Towxml = require('/towxml/main');
 App({
+  // 引入`towxml3.0`解析方法
+  towxml: new Towxml(),  
+  globalData: {
+  },
+  data: {
+    setting: {
+      themeIndex: 0,
+      fontIndex: 0,
+    },
+    fontIndexs: ['30rpx', '32rpx', '34rpx', '36rpx', '38rpx', '40rpx', '42rpx']
+  },
+  setFont: function (e) {
+    // 0 ~ 6
+    // if (config.debug) console.log(e)
+    let that = this
+    let setting = that.data.setting
+    if (e.currentTarget.dataset.action == 'minus') {
+      if (setting.fontIndex > 0) setting.fontIndex = setting.fontIndex - 1
+    } else {
+      if (setting.fontIndex < 6) setting.fontIndex = setting.fontIndex + 1
+    }
+    that.setData({
+      setting: setting
+    })
+    util.setReaderSetting(Object(setting))
+  },
   onLaunch: function () {
     
     if (!wx.cloud) {
@@ -15,8 +47,7 @@ App({
       })
     }
 
-    this.globalData = {}
-    
+    // this.globalData = {}
     wx.getSystemInfo({
       success: e => {
         this.globalData.StatusBar = e.statusBarHeight;

@@ -17,7 +17,7 @@
 <!-- 内科各类 -->
 <view class="cu-list grid col-4 no-border">
   <view class="cu-item" wx:for="{{medicineImgList}}" wx:key="unique">
-    <navigator hover-class='none' url="/pages/home/{{item.name}}/{{item.name}}" >
+    <navigator hover-class='none' url="/pages/home/homeDetail/homeDetail?title={{item.name}}" >
       <image src="{{item.url}}" wx:if="{{item.type=='image'}}"></image>
       <view class="nav-name">{{item.title}}</view>
     </navigator>
@@ -33,7 +33,7 @@
 
 <view class="cu-list grid col-4 no-border">
   <view class="cu-item" wx:for="{{surgeryImgList}}" wx:key="unique">
-    <navigator hover-class='none' url="/pages/home/{{item.name}}/{{item.name}}" >
+    <navigator hover-class='none' url="/pages/home/homeDetail/homeDetail?title={{item.name}}" >
       <image src="{{item.url}}" wx:if="{{item.type=='image'}}"></image>
       <view class="nav-name">{{item.title}}</view>
     </navigator>
@@ -49,7 +49,7 @@
 
 <view class="cu-list grid col-4 no-border">
   <view class="cu-item" wx:for="{{OGImgList}}" wx:key="unique">
-    <navigator hover-class='none' url="/pages/home/{{item.name}}/{{item.name}}" >
+    <navigator hover-class='none' url="/pages/home/homeDetail/homeDetail?title={{item.name}}" >
       <image src="{{item.url}}" wx:if="{{item.type=='image'}}"></image>
       <view class="nav-name">{{item.title}}</view>
     </navigator>
@@ -65,9 +65,10 @@
 
 <view class="cu-list grid col-4 no-border">
   <view class="cu-item" wx:for="{{pediatricsImgList}}" wx:key="unique">
-    <navigator hover-class='none' url="/pages/home/{{item.name}}/{{item.name}}" >
+    <navigator hover-class='none' url="/pages/home/homeDetail/homeDetail?title={{item.name}}" >
       <image src="{{item.url}}" wx:if="{{item.type=='image'}}"></image>
       <view class="nav-name">{{item.title}}</view>
     </navigator>
   </view>
 </view>
+
